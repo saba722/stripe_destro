@@ -502,11 +502,6 @@ jws@^3.2.2:
     jwa "^1.4.1"
     safe-buffer "^5.0.1"
 
-jwt-decode@^3.0.0-beta.0:
-  version "3.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/jwt-decode/-/jwt-decode-3.0.0-beta.0.tgz#3d98eb03b4d51550c072325093fe22e56ee3fea8"
-  integrity sha512-bwEeUko8/rnu/eqyocSNsU6e43bEc13XAeIPBVZPpJFfhxT94QPgkIuB6LhhNkFVp9CTOfZuhzGBgH7I9O6IYg==
-
 kareem@2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.3.1.tgz#def12d9c941017fabfb00f873af95e9c99e1be87"
