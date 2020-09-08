@@ -18,7 +18,7 @@ class Dashboard extends Component {
     this.props.logoutUser();
   };
   getAllData = async () => {
-    const result = await Axios.post("https://stripe-coupons-1.herokuapp.com/api/users/getAllCoupons");
+    const result = await Axios.post("/api/users/getAllCoupons");
     let coupons = result.data.coupons || [];
     console.log(coupons)
    this.setState({coupons});
