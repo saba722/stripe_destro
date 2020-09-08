@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const keys = require("../../config/keys");
 const passport = require("passport");
-const stripe = require('stripe')('sk_test_51HOsdjKHgAOG6NM0qCkshoDXVotggcniJvQTjnZ9ZdMhu0gxa3iXOJ3IihE9QBP4TzWrulT9sE0LNcf11XbyfE2X00KF5Kf92I');
+const stripe = require('stripe')('pk_test_51HOJDoAsshTLHa3WIeekXFp8tp7N3cjXg7nS5HAwLBeaGpmujBUecSoUVPvyEMMS82sZDB9X3sNqLnPsqlko6XXe00bKOZ3L3h');
 // Load input validation
 const validateRegisterInput = require("../../validation/register");
 const validateLoginInput = require("../../validation/login");
