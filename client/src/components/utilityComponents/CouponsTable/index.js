@@ -78,7 +78,7 @@ class CouponTable extends React.Component {
     });
   };
 deleteCoupon = (e) =>{
-Axios.post("http://localhost:5000/api/users/deleteCoupon",{
+Axios.post("https://stripe-coupons-1.herokuapp.com/api/users/deleteCoupon",{
   couponId: e.key
 }).then((res)=>{
   this.openNotificationWithIcon('success','You have successfully deleted the coupon','ERROR')

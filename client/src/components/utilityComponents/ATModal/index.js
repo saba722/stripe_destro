@@ -58,7 +58,7 @@ class ATModal extends React.Component {
         duration,
         durationInMonths,
       }
-      Axios.post('/api/users/createCoupon',{addDoc}).then((response)=>{
+      Axios.post('https://stripe-coupons-1.herokuapp.com/api/users/createCoupon',{addDoc}).then((response)=>{
         if(!response.data.error){
           this.openNotificationWithIcon("success","You have successfully create a coupon","SUCCESS");
           this.handleCancel();
